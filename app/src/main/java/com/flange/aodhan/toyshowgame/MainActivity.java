@@ -28,8 +28,7 @@ public class MainActivity extends AppCompatActivity  {
             public void onClick(View v) {
                 merry.start();
 
-                button1.setBackgroundColor(Color.RED);
-
+                button1.setBackgroundResource(R.drawable.cross);
             }
         });
         final Button button2 = (Button) findViewById(R.id.button2);
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 merry.start();
-                button2.setBackgroundColor(Color.RED);
+                button2.setBackgroundResource(R.drawable.cross);
             }
         });
 
@@ -48,7 +47,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 merry.start();
-                button3.setBackgroundColor(Color.RED);
+                button3.setBackgroundResource(R.drawable.cross);
             }
         });
         final Button button4 = (Button) findViewById(R.id.button4);
@@ -57,7 +56,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 merry.start();
-                button4.setBackgroundColor(Color.RED);
+                button4.setBackgroundResource(R.drawable.cross);
             }
         });
         final Button button5 = (Button) findViewById(R.id.button5);
@@ -66,7 +65,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 merry.start();
-                button5.setBackgroundColor(Color.RED);
+                button5.setBackgroundResource(R.drawable.cross);
             }
         });
         final Button button6 = (Button) findViewById(R.id.button6);
@@ -75,7 +74,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 merry.start();
-                button6.setBackgroundColor(Color.RED);
+                button6.setBackgroundResource(R.drawable.cross);
             }
         });
         final Button button7 = (Button) findViewById(R.id.button7);
@@ -84,7 +83,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 merry.start();
-                button7.setBackgroundColor(Color.RED);
+                button7.setBackgroundResource(R.drawable.cross);
             }
         });
         final Button button8 = (Button) findViewById(R.id.button8);
@@ -93,7 +92,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 merry.start();
-                button8.setBackgroundColor(Color.RED);
+                button8.setBackgroundResource(R.drawable.cross);
             }
         });
 
@@ -103,7 +102,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, doom.class));
-                jedward.setBackgroundColor(Color.RED);
+                jedward.setBackgroundResource(R.drawable.cross);
             }
         });
         final Button button10 = (Button) findViewById(R.id.button10);
@@ -112,7 +111,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 merry.start();
-                button10.setBackgroundColor(Color.RED);
+                button10.setBackgroundResource(R.drawable.cross);
             }
         });
         final Button button11 = (Button) findViewById(R.id.button11);
@@ -121,7 +120,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 clap.start();
-                button11.setBackgroundColor(Color.RED);
+                button11.setBackgroundResource(R.drawable.cross);
             }
         });
         final Button button12 = (Button) findViewById(R.id.button12);
@@ -130,7 +129,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 merry.start();
-                button12.setBackgroundColor(Color.RED);
+                button11.setBackgroundResource(R.drawable.cross);
             }
         });
 
